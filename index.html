@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* css reset  */
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(165, 184, 207);
+        margin: 20px;
+        padding: opx;
+        background: url(img/dum.jpg);
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 25px;
+        top: 20px;
+
+    }
+
+    .left div {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        text-align: center;
+        line-height: 13px;
+        text-align: center;
+    }
+
+    .left img {
+        width: 90px;
+    }
+
+    .mid {
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        right: 20px;
+        top: 28px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+
+    }
+
+    .navbar li a {
+        color: rgb(233, 232, 215);
+        text-decoration: none;
+        padding: 34px 21px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(187, 170, 170);
+
+    }
+
+    .btn {
+        margin: 4px 9px;
+        background-color: rgb(32, 26, 26);
+        color: rgb(232, 231, 231);
+        padding: 2px 14px;
+        border: 2px solid rgb(131, 171, 161);
+        border-radius: 10px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(254, 255, 255);
+    }
+
+    .container {
+        border: 2px solid rgb(49, 48, 45);
+        margin: 70px 70px;
+        padding: 30px;
+        width: 35%;
+        border-radius: 24px;
+
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 230px;
+        padding: 4px;
+        border: 4px solid rgb(27, 33, 33);
+        margin: 6px auto;
+        font-size: 15px;
+        border-radius: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    .container h1 {
+        text-align:icenter;
+        font-size: 26px;
+
+    }
+
+    .container button {
+        display: block;
+        width: 65%;
+        margin: 25px auto;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box forlogo  -->
+        <div class="left">
+            <img src="img/1245055.jpg" alt="">
+            <div>Royal Fitness</div>
+
+        </div>
+        <!-- mid box for navigation bar  -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">MEMBERSHIP</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons  -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best Gym of Shrirampur Now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your  Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Contact No.">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
