@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("imges/background.jpg");
+    height: 70vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    height: 62px;
+
+    align-items: center;
+}
+
+nav img {
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+    text-align: center;
+
+}
+
+.hero> :nth-child(1) {
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 900px;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero:nth-child(2) {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.hero:nth-child(3) {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.separation {
+
+    height: 7px;
+    background-color: rgb(37, 36, 36);
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: rgba(78, 77, 77, 0.3);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    background-color: red;
+    padding: 6px 24px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 400;
+
+
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.main input{
+    /* background-color: red; */
+    color: white;
+    padding: 15px 200px 12px 11px;
+    font-weight: 900px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    margin: 12px;
+    background-color: rgba(23, 23, 23, 0.7);
+    align-items: center;
+    border: 1px solid rgba(239, 237, 237, 0.5);
+
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.secimage{
+    position: relative;
+}
+.secimage img{
+    width: 30vw;
+    position: relative;
+    padding: 2px;
+    z-index: 10;
+    
+    
+}
+.secimage video{
+    position: relative;
+    bottom: 376px;
+    left: 70px;
+    zoom: 50%;
+    
+    
+    
+}
